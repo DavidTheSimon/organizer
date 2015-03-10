@@ -1,0 +1,2 @@
+1. Have to check getNormalizedFILES() function! Not secure
+2. Have to define the uploading folders

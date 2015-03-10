@@ -1,0 +1,11 @@
+
+
+--- Get any content of an other website ---
+
+
+$contents = file_get_contents("Name of the website");
+
+preg_match('/3 Day Weather Forecast Summary:<\/b>
+	<span class="phrase">(.*?)</s', $contents, $matches);
+	
+echo $matches[1];
